@@ -1,0 +1,10 @@
+h1, h2, h3, h4, h5, h5, h6, a, p, div {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* text-align: center; */
+}
+button{
+  width: 100px;
+}
+th{
+  text-align: center;
+}

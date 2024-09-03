@@ -1,0 +1,189 @@
+.rgpv-header {
+    font-family: Arial, sans-serif;
+    /* width: 100%; */
+  }
+  
+  .accessibility-bar {
+    background-color: #00008B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 0.9rem;
+  }
+  
+  .left-options, .right-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-options button, .right-options a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .font-size-controls button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .hindi-link {
+    background-color: #32CD32;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  .mobile-app-link {
+    background-color: #FF4500;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  .youtube-link {
+    color: #FF0000 !important;
+  }
+  
+  .record-verification {
+    background-color: #FF0000;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+  
+  .main-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .rgpv-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 50px;
+  }
+  .university-title{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 80%;
+  }
+  .university-title h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #00008B;
+    text-align: center;
+  }
+  
+  .university-title h2 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+    color: #4B0082;
+    text-align: center;
+  }
+  
+  .university-title p {
+    margin: 2px 0;
+    color: #4B0082;
+    text-align: center;
+  }
+  
+  .main-nav {
+    background-color: #00008B;
+  }
+  
+  .main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid black 2px; */
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .main-nav li {
+    padding: 10px 15px;
+  }
+  
+  .main-nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .home-link {
+    background-color: #4169E1;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1024px) {
+    .accessibility-bar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .right-options {
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    
+    .main-nav ul {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .main-header {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .rgpv-logo {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .main-nav li {
+      width: 50%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .accessibility-bar {
+      font-size: 0.8rem;
+    }
+    
+    .university-title h1 {
+      font-size: 2rem;
+    }
+    
+    .university-title h2 {
+      font-size: 1.2rem;
+    }
+    
+    .main-nav li {
+      width: 100%;
+    }
+  }
+  
+  /* Font size classes */
+  .font-small {
+    font-size: 0.9em;
+  }
+  
+  .font-normal {
+    font-size: 1em;
+  }
+  
+  .font-large {
+    font-size: 1.1em;
+  }
+
+  .MiddelPart{
+    border: 2px solid black;
+    
+  }

@@ -1,0 +1,102 @@
+.enquiry-form-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .enquiry-form h2 {
+    text-align: center;
+    color: #800000; /* Maroon color */
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #800000;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-group select {
+    width: 100%;
+  }
+  
+  .form-group textarea {
+    width: calc(100% - 20px);
+    height: 80px;
+  }
+  
+  .branch-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .branch-btn {
+    background-color: white;
+    color: #800000;
+    border: 1px solid #800000;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .branch-btn.active {
+    background-color: #800000;
+    color: white;
+  }
+  
+  .captcha-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .captcha-group img {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #800000;
+    border-radius: 5px;
+  }
+  
+  .captcha-group input {
+    width: calc(50% - 20px);
+    padding: 10px;
+    border: 1px solid #800000;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #ffcc00; /* Yellow button */
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+  }
+  
+  .submit-btn:hover {
+    background-color: #d4aa00;
+  }
+  

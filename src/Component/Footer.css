@@ -1,0 +1,95 @@
+/* General footer styles */
+footer {
+    background: linear-gradient(to right, #1e3a8a, #2563eb);
+    /* color: white; */
+    text-align: center;
+    /* background-image: url("../image/logo.png"); */
+    padding: 1.5rem 0;
+    
+  }
+
+  footer .container {
+    display: flex;
+    border: 2px solid black;
+    text-align: center;
+    /* background-image: url("../image/logo.png");
+    background-position:unset;
+    background-size:cover; */
+
+  }
+  
+  @media (min-width: 768px) {
+    footer .container {
+      flex-direction: row;
+    }
+  }
+  
+
+  
+  footer h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.25;
+    /* border: 2px solid black; */
+    text-align: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  }
+  
+  footer p {
+    /* margin: 0.25rem 0; */
+  }
+  
+  footer .text-center p {
+    font-style: italic;
+    font-size: 0.875rem;
+    /* max-width: 24rem; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  footer .flex-col {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+  }
+  
+  footer .flex-col .space-x-4 a {
+    margin-left: 1rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: red;
+    transition: color 0.3s ease;
+  }
+  
+ footer a:hover {
+    color: #3661eb;
+  } 
+   
+  footer .text-xs {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    /* text-align: right; */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    footer .container {
+      text-align: center;
+    }
+  
+    footer .text-center p {
+      margin: 1rem 0;
+    }
+  
+    footer .flex-col {
+      align-items: center;
+    }
+  }
+  
+
+  
